@@ -2599,7 +2599,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 60%;
+			max-width: 40%;
 		}
 
 			.image.left img, .image.right img {
@@ -2621,12 +2621,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 2.5rem 0;
-			/*Shrinking link photos and centering*/
 			width: 100%;
-			/*center article images*/
-			margin-left:auto;
-			margin-right:auto;
-			align-items: center;
 		}
 
 			.image.fit:first-child {
@@ -2640,7 +2635,7 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 4rem 0;
-			/*width: 100%;*/
+			width: 100%;
 		}
 
 			.image.main:first-child {
@@ -2964,7 +2959,6 @@ input, select, textarea {
 			}
 
 			header.major > .date {
-				padding: 2rem;
 				font-size: 1rem;
 				margin: 0 0 4rem 0;
 			}
@@ -2974,9 +2968,7 @@ input, select, textarea {
 					display: block;
 					position: absolute;
 					top: 50%;
-					/*rem is gap in 'last updated' line*/
-					width: calc(50% - 8rem);
-					/*This is width of the 'last updated' line*/
+					width: calc(50% - 6rem);
 					border-top: solid 2px;
 				}
 
@@ -3242,7 +3234,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/Halfmoonbay.jpg");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3771,25 +3763,6 @@ input, select, textarea {
 		max-width: 72rem;
 		z-index: 2;
 	}
-	/*Start of Gallery Code*/
-		#main > .gallery{
-				margin: 0px;
-				border: 1px;
-				float: center;
-				width: auto;
-				background-color: #ffffff;
-			}
-
-
-			#main > .gallery img{
-				width: 60%;
-			}
-
-			#main > .desc{
-				padding: 10px;
-				text-align: center;
-			}
-			/*End of Gallery Code*/
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
@@ -3799,8 +3772,6 @@ input, select, textarea {
 
 			#main > *:first-child {
 				border-top: 0;
-				/*center the 'about me'*/
-				text-align: center;
 			}
 
 		#main > footer {
@@ -3822,8 +3793,6 @@ input, select, textarea {
 			}
 
 			#main > .post.featured {
-				/*Setting space before article header*/
-				padding:2rem;
 				text-align: center;
 			}
 
@@ -3834,7 +3803,6 @@ input, select, textarea {
 				}
 
 			}
-
 
 			@media screen and (max-width: 736px) {
 
@@ -3887,9 +3855,9 @@ input, select, textarea {
 			#main > .posts > * {
 				width: 50%;
 			}
-			/*Change gap between top of container and article heading*/
+
 			#main > .posts > * {
-				padding: 2rem;
+				padding: 4rem;
 				width: 50%;
 			}
 
