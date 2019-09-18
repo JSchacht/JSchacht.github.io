@@ -3823,7 +3823,7 @@ input, select, textarea {
 
 			#main > .post.featured {
 				/*Setting space before article header*/
-				padding:2rem;
+				padding: 2rem;
 				text-align: center;
 			}
 
@@ -3910,7 +3910,7 @@ input, select, textarea {
 				}
 
 				#main > .posts > article:nth-child(-n + 2) {
-					border-top-width: 0;
+					border-top-width: 2;
 				}
 
 			@media screen and (max-width: 980px) {
@@ -3950,7 +3950,7 @@ input, select, textarea {
 				}
 
 				#main > .posts > article:nth-child(-n + 1) {
-					border-top-width: 0;
+					border-top-width: 2;
 				}
 
 				#main > .posts > article .image {
